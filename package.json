@@ -1,0 +1,26 @@
+{
+  "name": "converges2k24",
+  "version": "1.0.0",
+  "description": "DetectiveMart: Your One-Stop Shop for component Supplies! Get everything your detective team needs to crack the Converges cases, we've got you covered. Shop now!",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr-Yash-beldar/Detective-s-Return-Converges2K24-.git"
+  },
+  "author": "Yashodip Beldar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr-Yash-beldar/Detective-s-Return-Converges2K24-/issues"
+  },
+  "homepage": "https://github.com/Mr-Yash-beldar/Detective-s-Return-Converges2K24-#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.2",
+    "nodemon": "^3.0.3"
+  }
+}
