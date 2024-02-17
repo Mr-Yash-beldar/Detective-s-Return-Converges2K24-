@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Mr-Yash-beldar/Detective-s-Return-Converges2K24-#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.4",
     "express": "^4.18.2",

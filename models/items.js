@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Define schema
 const componentSchema = new mongoose.Schema({
   componentId: {
-    type: String,
+    type: Number,
     required: true,
     unique: true
   },

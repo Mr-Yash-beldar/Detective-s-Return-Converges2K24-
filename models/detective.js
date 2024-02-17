@@ -14,7 +14,7 @@ const detectiveSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  email: {
+  email: {  
     type: String,
     required: true,
     unique: true,
@@ -27,6 +27,7 @@ const detectiveSchema = new mongoose.Schema({
     type: Number,
     default: 0,
   },
+  purchaseItems: [Number]
 });
 
 const Detective = mongoose.model("Detective", detectiveSchema);
