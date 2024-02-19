@@ -14,7 +14,7 @@ const app = express();
 // Middleware
 app.use(bodyParser.json());
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: ["http://localhost:5173", "https://detectives-inventory.vercel.app"],
   credentials: true,
 }));
 app.use(cookieParser());
