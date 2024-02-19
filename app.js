@@ -141,7 +141,7 @@ app.post("/purchase/:componentId", async (req, res) => {
 
     const componentPrice = component.price;
     const componentLink = component.link;
-
+    const componentPonits = component.points;
     // Find detective by email
     const detective = await Detective.findOne({ email: detectiveEmail });
     if (!detective) {
@@ -164,6 +164,7 @@ app.post("/purchase/:componentId", async (req, res) => {
 
     // Deduct component price from detective's points
     detective.points -= componentPrice;
+    detective.rewards += componentPonits;
 
     // Add componentId to the detective's purchaseItems array
     detective.purchaseItems.push(componentId);
